@@ -15,3 +15,7 @@ C:\Users\maneesha yasinth\Desktop\New Projects\Library-Management-System\Library
 C:\Users\maneesha yasinth\Desktop\New Projects\Library-Management-System\Library Management System\Library Management System\obj\Debug\net8.0-windows\Library Management System.pdb
 C:\Users\maneesha yasinth\Desktop\New Projects\Library-Management-System\Library Management System\Library Management System\obj\Debug\net8.0-windows\Library Management System.genruntimeconfig.cache
 C:\Users\maneesha yasinth\Desktop\New Projects\Library-Management-System\Library Management System\Library Management System\obj\Debug\net8.0-windows\ref\Library Management System.dll
+C:\Users\maneesha yasinth\Desktop\New Projects\Library-Management-System\Library Management System\Library Management System\obj\Debug\net8.0-windows\Library_Management_System.Form2.resources
+C:\Users\maneesha yasinth\Desktop\New Projects\Library-Management-System\Library Management System\Library Management System\obj\Debug\net8.0-windows\Library Management System.sourcelink.json
+C:\Users\maneesha yasinth\Desktop\New Projects\Library-Management-System\Library Management System\Library Management System\obj\Debug\net8.0-windows\Library_Management_System.Form3.resources
+C:\Users\maneesha yasinth\Desktop\New Projects\Library-Management-System\Library Management System\Library Management System\obj\Debug\net8.0-windows\Library_Management_System.Form4.resources
