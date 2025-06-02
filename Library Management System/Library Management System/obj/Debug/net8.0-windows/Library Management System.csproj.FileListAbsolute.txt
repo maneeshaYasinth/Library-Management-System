@@ -19,3 +19,6 @@ C:\Users\maneesha yasinth\Desktop\New Projects\Library-Management-System\Library
 C:\Users\maneesha yasinth\Desktop\New Projects\Library-Management-System\Library Management System\Library Management System\obj\Debug\net8.0-windows\Library Management System.sourcelink.json
 C:\Users\maneesha yasinth\Desktop\New Projects\Library-Management-System\Library Management System\Library Management System\obj\Debug\net8.0-windows\Library_Management_System.Form3.resources
 C:\Users\maneesha yasinth\Desktop\New Projects\Library-Management-System\Library Management System\Library Management System\obj\Debug\net8.0-windows\Library_Management_System.Form4.resources
+C:\Users\maneesha yasinth\Desktop\New Projects\Library-Management-System\Library Management System\Library Management System\obj\Debug\net8.0-windows\Library_Management_System.Form5.resources
+C:\Users\maneesha yasinth\Desktop\New Projects\Library-Management-System\Library Management System\Library Management System\obj\Debug\net8.0-windows\Library_Management_System.Form6.resources
+C:\Users\maneesha yasinth\Desktop\New Projects\Library-Management-System\Library Management System\Library Management System\obj\Debug\net8.0-windows\Library_Management_System.Form7.resources

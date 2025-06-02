@@ -37,5 +37,17 @@ namespace Library_Management_System
             Form4 abs = new Form4();
             abs.Show();
         }
+
+        private void addNewStudentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form5 abs = new Form5();
+            abs.Show();
+        }
+
+        private void viewStudentInfoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form6 abs = new Form6();
+            abs.Show();
+        }
     }
 }

@@ -66,8 +66,9 @@
             // addNewBookToolStripMenuItem
             // 
             addNewBookToolStripMenuItem.Image = (Image)resources.GetObject("addNewBookToolStripMenuItem.Image");
+            addNewBookToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None;
             addNewBookToolStripMenuItem.Name = "addNewBookToolStripMenuItem";
-            addNewBookToolStripMenuItem.Size = new Size(224, 26);
+            addNewBookToolStripMenuItem.Size = new Size(200, 56);
             addNewBookToolStripMenuItem.Text = "View Books";
             addNewBookToolStripMenuItem.Click += addNewBookToolStripMenuItem_Click;
             // 
@@ -75,7 +76,7 @@
             // 
             addAToolStripMenuItem.Image = (Image)resources.GetObject("addAToolStripMenuItem.Image");
             addAToolStripMenuItem.Name = "addAToolStripMenuItem";
-            addAToolStripMenuItem.Size = new Size(224, 26);
+            addAToolStripMenuItem.Size = new Size(200, 56);
             addAToolStripMenuItem.Text = "Add a Book";
             addAToolStripMenuItem.Click += addAToolStripMenuItem_Click;
             // 
@@ -91,16 +92,20 @@
             // addNewStudentToolStripMenuItem
             // 
             addNewStudentToolStripMenuItem.Image = (Image)resources.GetObject("addNewStudentToolStripMenuItem.Image");
+            addNewStudentToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None;
             addNewStudentToolStripMenuItem.Name = "addNewStudentToolStripMenuItem";
-            addNewStudentToolStripMenuItem.Size = new Size(209, 26);
+            addNewStudentToolStripMenuItem.Size = new Size(304, 106);
             addNewStudentToolStripMenuItem.Text = "Add new Student";
+            addNewStudentToolStripMenuItem.Click += addNewStudentToolStripMenuItem_Click;
             // 
             // viewStudentInfoToolStripMenuItem
             // 
             viewStudentInfoToolStripMenuItem.Image = (Image)resources.GetObject("viewStudentInfoToolStripMenuItem.Image");
+            viewStudentInfoToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None;
             viewStudentInfoToolStripMenuItem.Name = "viewStudentInfoToolStripMenuItem";
-            viewStudentInfoToolStripMenuItem.Size = new Size(209, 26);
+            viewStudentInfoToolStripMenuItem.Size = new Size(304, 106);
             viewStudentInfoToolStripMenuItem.Text = "View Student Info";
+            viewStudentInfoToolStripMenuItem.Click += viewStudentInfoToolStripMenuItem_Click;
             // 
             // issueBooksToolStripMenuItem
             // 
