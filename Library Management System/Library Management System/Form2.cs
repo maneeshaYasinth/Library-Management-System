@@ -49,5 +49,11 @@ namespace Library_Management_System
             Form6 abs = new Form6();
             abs.Show();
         }
+
+        private void issueBooksToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form7 abs = new Form7();
+            abs.Show();
+        }
     }
 }
