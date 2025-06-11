@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\maneesha yasinth\\Desktop\\New Projects\\Library-Management-System\\Library Management System\\Library Management System\\Library Management System.csproj": {}
+    "C:\\Users\\yasiru\\source\\repos\\Librart_MS\\Library Management System\\Library Management System\\Library Management System.csproj": {}
   },
   "projects": {
-    "C:\\Users\\maneesha yasinth\\Desktop\\New Projects\\Library-Management-System\\Library Management System\\Library Management System\\Library Management System.csproj": {
+    "C:\\Users\\yasiru\\source\\repos\\Librart_MS\\Library Management System\\Library Management System\\Library Management System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\maneesha yasinth\\Desktop\\New Projects\\Library-Management-System\\Library Management System\\Library Management System\\Library Management System.csproj",
+        "projectUniqueName": "C:\\Users\\yasiru\\source\\repos\\Librart_MS\\Library Management System\\Library Management System\\Library Management System.csproj",
         "projectName": "Library Management System",
-        "projectPath": "C:\\Users\\maneesha yasinth\\Desktop\\New Projects\\Library-Management-System\\Library Management System\\Library Management System\\Library Management System.csproj",
-        "packagesPath": "C:\\Users\\maneesha yasinth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maneesha yasinth\\Desktop\\New Projects\\Library-Management-System\\Library Management System\\Library Management System\\obj\\",
+        "projectPath": "C:\\Users\\yasiru\\source\\repos\\Librart_MS\\Library Management System\\Library Management System\\Library Management System.csproj",
+        "packagesPath": "C:\\Users\\yasiru\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yasiru\\source\\repos\\Librart_MS\\Library Management System\\Library Management System\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\maneesha yasinth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yasiru\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0-windows7.0": {
@@ -68,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
