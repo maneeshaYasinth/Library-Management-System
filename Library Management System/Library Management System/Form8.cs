@@ -36,5 +36,10 @@ namespace Library_Management_System
         {
 
         }
+
+        private void btnSearchStudent_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

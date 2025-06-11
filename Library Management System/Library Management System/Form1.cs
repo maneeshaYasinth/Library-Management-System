@@ -7,7 +7,7 @@ namespace Library_Management_System
             InitializeComponent();
         }
 
-       
+
 
         private void txtUser_MouseEnter(object sender, EventArgs e)
         {
@@ -19,9 +19,28 @@ namespace Library_Management_System
 
         private void txtPsswrd_MouseEnter(object sender, EventArgs e)
         {
-            if (txtPsswrd.Text == "   Password")
+
+        }
+
+        private void txtUser_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtUser_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (txtUser.Text == "Username")
             {
-                txtPsswrd.Clear();
+                txtUser.Clear();
+            }
+        }
+
+        private void txtPsswrd_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (txtPsswrd.Text == "Password")
+            {
+                txtPsswrd.Clear(); 
+                txtPsswrd.PasswordChar = '*';
             }
         }
     }
