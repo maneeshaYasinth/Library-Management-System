@@ -136,6 +136,7 @@
             btnLog.TabIndex = 7;
             btnLog.Text = "Login";
             btnLog.UseVisualStyleBackColor = true;
+            btnLog.Click += btnLog_Click;
             // 
             // btnSignup
             // 
