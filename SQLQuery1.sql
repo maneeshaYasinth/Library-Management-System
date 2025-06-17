@@ -1,11 +1,13 @@
-create table loginTable(
-id int NOT NULL IDENTITY(1,1) primary key,
-username varchar(150) not null,
-pass varchar(150) not null,
+create database library
+
+create table NewBook(
+bid int NOT NULL IDENTITY(1,1) primary key,
+bName varchar(250) not null,
+bAuthor varchar(250) not null,
+bPubl varchar(250) not null,
+bPDate varchar(250) not null,
+bPrice bigint not null,
+bQuan bigint not null,
 )
 
-insert into loginTable (username,pass) values ('btechdays', 'pass');
-
-insert into loginTable (username,pass) values ('yasiru', 'pass');
-
-select * from loginTable
+select * from NewBook

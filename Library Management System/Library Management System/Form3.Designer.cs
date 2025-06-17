@@ -33,20 +33,20 @@
             panel1 = new Panel();
             label7 = new Label();
             panel2 = new Panel();
-            label1 = new Label();
+            bName = new Label();
             label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            label5 = new Label();
-            label6 = new Label();
+            publication = new Label();
+            pdate = new Label();
+            bPrice = new Label();
+            bQty = new Label();
             bookName = new TextBox();
             athrName = new TextBox();
             pblicton = new TextBox();
             txtPrice = new TextBox();
-            txtQtty = new TextBox();
+            txtQty = new TextBox();
             phrseDate = new DateTimePicker();
-            button1 = new Button();
-            button2 = new Button();
+            btnSave = new Button();
+            btnCancel = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
             SuspendLayout();
@@ -54,9 +54,10 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(2, 100);
+            pictureBox1.Location = new Point(2, 75);
+            pictureBox1.Margin = new Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(452, 501);
+            pictureBox1.Size = new Size(396, 376);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
@@ -66,171 +67,187 @@
             panel1.Controls.Add(label7);
             panel1.Controls.Add(panel2);
             panel1.Location = new Point(2, 1);
+            panel1.Margin = new Padding(3, 2, 3, 2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1046, 100);
+            panel1.Size = new Size(915, 75);
             panel1.TabIndex = 1;
             // 
             // label7
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Sitka Heading", 22.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label7.Location = new Point(380, 32);
+            label7.Location = new Point(332, 24);
             label7.Name = "label7";
-            label7.Size = new Size(203, 53);
+            label7.Size = new Size(162, 43);
             label7.TabIndex = 3;
             label7.Text = "ADD BOOK";
             // 
             // panel2
             // 
-            panel2.Location = new Point(448, 99);
+            panel2.Location = new Point(392, 74);
+            panel2.Margin = new Padding(3, 2, 3, 2);
             panel2.Name = "panel2";
-            panel2.Size = new Size(598, 498);
+            panel2.Size = new Size(523, 374);
             panel2.TabIndex = 2;
             // 
-            // label1
+            // bName
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Dubai Medium", 10.2F, FontStyle.Bold);
-            label1.Location = new Point(499, 139);
-            label1.Name = "label1";
-            label1.Size = new Size(103, 29);
-            label1.TabIndex = 2;
-            label1.Text = "Book Name";
+            bName.AutoSize = true;
+            bName.Font = new Font("Dubai Medium", 10.2F, FontStyle.Bold);
+            bName.Location = new Point(437, 104);
+            bName.Name = "bName";
+            bName.Size = new Size(82, 24);
+            bName.TabIndex = 2;
+            bName.Text = "BookName";
+            bName.Click += bName_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Dubai Medium", 10.2F, FontStyle.Bold);
-            label2.Location = new Point(499, 194);
+            label2.Location = new Point(437, 146);
             label2.Name = "label2";
-            label2.Size = new Size(132, 29);
+            label2.Size = new Size(110, 24);
             label2.TabIndex = 3;
             label2.Text = "Author's Name";
+            label2.Click += label2_Click;
             // 
-            // label3
+            // publication
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Dubai Medium", 10.2F, FontStyle.Bold);
-            label3.Location = new Point(499, 253);
-            label3.Name = "label3";
-            label3.Size = new Size(148, 29);
-            label3.TabIndex = 4;
-            label3.Text = "Book Publication";
+            publication.AutoSize = true;
+            publication.Font = new Font("Dubai Medium", 10.2F, FontStyle.Bold);
+            publication.Location = new Point(437, 190);
+            publication.Name = "publication";
+            publication.Size = new Size(121, 24);
+            publication.TabIndex = 4;
+            publication.Text = "Book Publication";
             // 
-            // label4
+            // pdate
             // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Dubai Medium", 10.2F, FontStyle.Bold);
-            label4.Location = new Point(499, 309);
-            label4.Name = "label4";
-            label4.Size = new Size(177, 29);
-            label4.TabIndex = 5;
-            label4.Text = "Book Purchase Date ";
+            pdate.AutoSize = true;
+            pdate.Font = new Font("Dubai Medium", 10.2F, FontStyle.Bold);
+            pdate.Location = new Point(437, 232);
+            pdate.Name = "pdate";
+            pdate.Size = new Size(148, 24);
+            pdate.TabIndex = 5;
+            pdate.Text = "Book Purchase Date ";
             // 
-            // label5
+            // bPrice
             // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Dubai Medium", 10.2F, FontStyle.Bold);
-            label5.Location = new Point(499, 383);
-            label5.Name = "label5";
-            label5.Size = new Size(103, 29);
-            label5.TabIndex = 6;
-            label5.Text = "Book Price ";
+            bPrice.AutoSize = true;
+            bPrice.Font = new Font("Dubai Medium", 10.2F, FontStyle.Bold);
+            bPrice.Location = new Point(437, 287);
+            bPrice.Name = "bPrice";
+            bPrice.Size = new Size(85, 24);
+            bPrice.TabIndex = 6;
+            bPrice.Text = "Book Price ";
             // 
-            // label6
+            // bQty
             // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Dubai Medium", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.Location = new Point(499, 449);
-            label6.Name = "label6";
-            label6.Size = new Size(128, 29);
-            label6.TabIndex = 7;
-            label6.Text = "Book Quantity";
+            bQty.AutoSize = true;
+            bQty.Font = new Font("Dubai Medium", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            bQty.Location = new Point(437, 337);
+            bQty.Name = "bQty";
+            bQty.Size = new Size(105, 24);
+            bQty.TabIndex = 7;
+            bQty.Text = "Book Quantity";
             // 
             // bookName
             // 
-            bookName.Location = new Point(740, 139);
+            bookName.Location = new Point(648, 104);
+            bookName.Margin = new Padding(3, 2, 3, 2);
             bookName.Name = "bookName";
-            bookName.Size = new Size(250, 27);
+            bookName.Size = new Size(219, 23);
             bookName.TabIndex = 8;
             // 
             // athrName
             // 
-            athrName.Location = new Point(740, 194);
+            athrName.Location = new Point(648, 146);
+            athrName.Margin = new Padding(3, 2, 3, 2);
             athrName.Name = "athrName";
-            athrName.Size = new Size(250, 27);
+            athrName.Size = new Size(219, 23);
             athrName.TabIndex = 9;
+            athrName.TextChanged += athrName_TextChanged;
             // 
             // pblicton
             // 
-            pblicton.Location = new Point(740, 243);
+            pblicton.Location = new Point(648, 182);
+            pblicton.Margin = new Padding(3, 2, 3, 2);
             pblicton.Name = "pblicton";
-            pblicton.Size = new Size(250, 27);
+            pblicton.Size = new Size(219, 23);
             pblicton.TabIndex = 10;
             // 
             // txtPrice
             // 
-            txtPrice.Location = new Point(740, 383);
+            txtPrice.Location = new Point(648, 287);
+            txtPrice.Margin = new Padding(3, 2, 3, 2);
             txtPrice.Name = "txtPrice";
-            txtPrice.Size = new Size(250, 27);
+            txtPrice.Size = new Size(219, 23);
             txtPrice.TabIndex = 12;
             // 
-            // txtQtty
+            // txtQty
             // 
-            txtQtty.Location = new Point(740, 449);
-            txtQtty.Name = "txtQtty";
-            txtQtty.Size = new Size(250, 27);
-            txtQtty.TabIndex = 13;
+            txtQty.Location = new Point(648, 337);
+            txtQty.Margin = new Padding(3, 2, 3, 2);
+            txtQty.Name = "txtQty";
+            txtQty.Size = new Size(219, 23);
+            txtQty.TabIndex = 13;
             // 
             // phrseDate
             // 
-            phrseDate.Location = new Point(740, 307);
+            phrseDate.Location = new Point(648, 230);
+            phrseDate.Margin = new Padding(3, 2, 3, 2);
             phrseDate.Name = "phrseDate";
-            phrseDate.Size = new Size(250, 27);
+            phrseDate.Size = new Size(219, 23);
             phrseDate.TabIndex = 14;
             // 
-            // button1
+            // btnSave
             // 
-            button1.FlatStyle = FlatStyle.Popup;
-            button1.Location = new Point(623, 528);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 15;
-            button1.Text = "Save";
-            button1.UseVisualStyleBackColor = true;
+            btnSave.FlatStyle = FlatStyle.Popup;
+            btnSave.Location = new Point(545, 396);
+            btnSave.Margin = new Padding(3, 2, 3, 2);
+            btnSave.Name = "btnSave";
+            btnSave.Size = new Size(82, 22);
+            btnSave.TabIndex = 15;
+            btnSave.Text = "Save";
+            btnSave.UseVisualStyleBackColor = true;
+            btnSave.Click += button1_Click;
             // 
-            // button2
+            // btnCancel
             // 
-            button2.FlatStyle = FlatStyle.Popup;
-            button2.Location = new Point(798, 528);
-            button2.Name = "button2";
-            button2.Size = new Size(94, 29);
-            button2.TabIndex = 16;
-            button2.Text = "Cancel";
-            button2.UseVisualStyleBackColor = true;
+            btnCancel.FlatStyle = FlatStyle.Popup;
+            btnCancel.Location = new Point(698, 396);
+            btnCancel.Margin = new Padding(3, 2, 3, 2);
+            btnCancel.Name = "btnCancel";
+            btnCancel.Size = new Size(82, 22);
+            btnCancel.TabIndex = 16;
+            btnCancel.Text = "Cancel";
+            btnCancel.UseVisualStyleBackColor = true;
+            btnCancel.Click += btnCancel_Click;
             // 
             // Form3
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(255, 192, 128);
-            ClientSize = new Size(1046, 598);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            ClientSize = new Size(915, 448);
+            Controls.Add(btnCancel);
+            Controls.Add(btnSave);
             Controls.Add(phrseDate);
-            Controls.Add(txtQtty);
+            Controls.Add(txtQty);
             Controls.Add(txtPrice);
             Controls.Add(pblicton);
             Controls.Add(athrName);
             Controls.Add(bookName);
-            Controls.Add(label6);
-            Controls.Add(label5);
-            Controls.Add(label4);
-            Controls.Add(label3);
+            Controls.Add(bQty);
+            Controls.Add(bPrice);
+            Controls.Add(pdate);
+            Controls.Add(publication);
             Controls.Add(label2);
-            Controls.Add(label1);
+            Controls.Add(bName);
             Controls.Add(panel1);
             Controls.Add(pictureBox1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Form3";
             Text = "AddBook";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -245,20 +262,20 @@
         private PictureBox pictureBox1;
         private Panel panel1;
         private Panel panel2;
-        private Label label1;
+        private Label bName;
         private Label label2;
-        private Label label3;
-        private Label label4;
-        private Label label5;
-        private Label label6;
+        private Label publication;
+        private Label pdate;
+        private Label bPrice;
+        private Label bQty;
         private TextBox bookName;
         private TextBox athrName;
         private TextBox pblicton;
         private TextBox txtPrice;
-        private TextBox txtQtty;
+        private TextBox txtQty;
         private DateTimePicker phrseDate;
         private Label label7;
-        private Button button1;
-        private Button button2;
+        private Button btnSave;
+        private Button btnCancel;
     }
 }

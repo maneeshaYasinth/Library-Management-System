@@ -139,3 +139,10 @@ C:\Users\yasiru\source\repos\L_M_S\Library Management System\Library Management 
 C:\Users\yasiru\source\repos\L_M_S\Library Management System\Library Management System\obj\Debug\net8.0-windows\Library .F7D87690.Up2Date
 C:\Users\yasiru\source\repos\L_M_S\Library Management System\Library Management System\obj\Debug\net8.0-windows\Library Management System.genruntimeconfig.cache
 C:\Users\yasiru\source\repos\L_M_S\Library Management System\Library Management System\obj\Debug\net8.0-windows\ref\Library Management System.dll
+C:\Users\yasiru\source\repos\L_M_S\Library Management System\Library Management System\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\yasiru\source\repos\L_M_S\Library Management System\Library Management System\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\yasiru\source\repos\L_M_S\Library Management System\Library Management System\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\yasiru\source\repos\L_M_S\Library Management System\Library Management System\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.UserSecrets.dll
+C:\Users\yasiru\source\repos\L_M_S\Library Management System\Library Management System\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\yasiru\source\repos\L_M_S\Library Management System\Library Management System\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\yasiru\source\repos\L_M_S\Library Management System\Library Management System\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
