@@ -1,5 +1,15 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
 using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
 using System.Data.SqlClient;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+
 
 namespace Library_Management_System
 {
@@ -49,27 +59,34 @@ namespace Library_Management_System
 
         private void btnLog_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection();
-            con.ConnectionString = "data source = DESKTOP-F7UNBMT\\SQLEXPRESS01 ; database=library;integrated security=True";
-            SqlCommand cmd = new SqlCommand();
-            cmd.Connection = con;
+            string connectionString = "Data Source = DESKTOP-F7UNBMT\\SQLEXPRESS01; Initial Catalog = library; Integrated Security = True;";
 
-            cmd.CommandText = "select * from users where username = '" + txtUser.Text + "' and pass ='" + txtPsswrd.Text + "' ";
-            SqlDataAdapter da = new SqlDataAdapter(cmd);
-            DataSet ds = new DataSet();
-            da.Fill(ds);
+            SqlConnection con = new SqlConnection(connectionString);
+            con.Open();
+            string query = "SELECT COUNT(*) FROM Login WHERE UserName=@username AND Password=@password";
+            SqlCommand cmd = new SqlCommand(query, con);
+            cmd.Parameters.AddWithValue("@username", txtUser.Text);
+            cmd.Parameters.AddWithValue("@password", txtPsswrd.Text);
 
-            if (ds.Tables[0].Rows.Count != 0)
+            int count = (int)cmd.ExecuteScalar();
+            con.Close();
+
+            if (count > 0)
             {
+
+                //MessageBox.Show("Login Successful", "info", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                Form2 abs = new Form2();
+                abs.Show();
                 this.Hide();
-                Form1 dsa = new Form1();
-                dsa.Show();
             }
+
             else
             {
                 MessageBox.Show("Invalid Username or Password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }
-        }
 
+        }
     }
 }

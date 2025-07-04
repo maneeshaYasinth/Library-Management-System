@@ -241,7 +241,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             AutoScroll = true;
             BackColor = Color.FromArgb(255, 192, 128);
-            ClientSize = new Size(807, 294);
+            ClientSize = new Size(807, 363);
             Controls.Add(panel3);
             Controls.Add(panel2);
             Controls.Add(panel1);
